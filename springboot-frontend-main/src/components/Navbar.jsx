@@ -7,7 +7,7 @@ const Navbar = () => {
   const isAdmin = roles.some(role => role.includes("ADMIN"));
 
   const handleLogout = () => {
-    localStorage.clear(); 
+    localStorage.clear();    
     navigate("/");
   };
 

@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const AddEmployee = () => {
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");            
+  const [email, setEmail] = useState("");              
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [role, setRole] = useState("ROLE_USER");

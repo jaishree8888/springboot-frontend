@@ -6,7 +6,7 @@ const Signupform = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    const [username, setUsername] = useState("");
+    const [username, setUsername] = useState("");  
     const [rolenames, setRoleNames] = useState([]);
  
     const handleCheckboxChange = (e) => {
